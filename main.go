@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("This is for deck of cards")
+	fmt.Println("Welcome to Deck of Cards!")
+	cards := newDeck()
+
+	cards.print()
 }
