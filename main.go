@@ -12,4 +12,6 @@ func main() {
 	fmt.Println("-------------------------------")
 	hand.print()
 	remainingHand.print()
+
+	cards.saveToFile("my_file")
 }
